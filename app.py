@@ -88,7 +88,7 @@ interface = gr.Interface(
         gr.Radio(["Yes","No"], label="Thyroid Disorder"),
         gr.Radio(["Yes","No"], label="Smoker"),
         gr.Radio(["Yes","No"], label="Alcohol Intaker"),
-        gr.Slider(8,15, label="Hemoglobin Level"),
+        gr.Slider(8,15, label="Hemoglobin Level from(8-15)"),
         gr.Dropdown(["Low","Moderate","High"],label="physical Activity Level"),
         gr.Slider(0,10, step=1, label="Pregnancy Interval"),
         gr.Dropdown(["Normal","Medium","High"], label="Fetal Heart Rate"),
